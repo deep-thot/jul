@@ -29,7 +29,7 @@ export class AppComponent {
     private countDownDone = false;
 
 
-    private _interval: number|NodeJS.Timer;
+    private _interval: NodeJS.Timer;
 
     constructor(){
         this._interval = setInterval(() => {
