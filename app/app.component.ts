@@ -24,20 +24,20 @@ import '../styles.css';
         </div>
         
         <div class="row row-centered marginTop" *ngIf="display['cash']">
-            <div class="col-lg-6 center-block">
+            <div class="col-lg-6 col-xs-12 center-block">
                 <div class="row row-centered">
                     <div class="center-block lead">
                         <p>500:- till...</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-sm-5 col-xs-12">
                         <img class="gift center-block" src="http://www.funnythings.se/shop/image.php?object_type=product&image_id=6559" />
                     </div>
-                    <div class="col-sm-2 gift-text">
+                    <div class="col-sm-2 col-xs-12 gift-text">
                         <p>eller </p>
                     </div>
-                    <div class="col-sm-5">
+                    <div class="col-sm-5 col-xs-12">
                         <img class="gift center-block" src="https://shop.textalk.se/shop/ws88/48688/files/STAND_TALL/Responsiv/Artikelgrupper/Varum%C3%A4rken/Flow-bindings-brand-image.jpg" />
                     </div>
                 </div>
