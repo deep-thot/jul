@@ -85,7 +85,7 @@ export class AppComponent {
         Seconds: "",
         MilliSeconds: ""
     };
-    private endDate = "2016/12/24 14:00:00+0100";
+    private endDate = "2016/12/24 15:00:00+0100";
     private countDownDone = new Date(new Date().getTime() + 1000) >= new Date(this.endDate);
     private displayCash = false;
     private display = {
