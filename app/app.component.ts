@@ -31,13 +31,13 @@ import '../styles.css';
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-5 col-xs-12">
+                    <div class="col-lg-4 col-xs-12">
                         <img class="gift center-block" src="http://www.funnythings.se/shop/image.php?object_type=product&image_id=6559" />
                     </div>
-                    <div class="col-sm-2 col-xs-12 gift-text">
+                    <div class="col-lg-2 col-xs-12 gift-text">
                         <p>eller </p>
                     </div>
-                    <div class="col-sm-5 col-xs-12">
+                    <div class="col-lg-4 col-xs-12">
                         <img class="gift center-block" src="https://shop.textalk.se/shop/ws88/48688/files/STAND_TALL/Responsiv/Artikelgrupper/Varum%C3%A4rken/Flow-bindings-brand-image.jpg" />
                     </div>
                 </div>
@@ -85,7 +85,7 @@ export class AppComponent {
         Seconds: "",
         MilliSeconds: ""
     };
-    private endDate = "2016/12/24 15:00:00+0100";
+    private endDate = "2016/12/24 14:00:00+0100";
     private countDownDone = new Date(new Date().getTime() + 1000) >= new Date(this.endDate);
     private displayCash = false;
     private display = {
